@@ -22,11 +22,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-//    avigationController!.navigationBar.clipsToBounds = true
-//    (navigationController!.parentViewController as! ContainerViewController).menuItem = (menuItems[0] as! NSDictionary)
-    
-//    self.navigationController.navigationBar.clipsToBounds = YES;
-//    self.navigationController.parentViewController
+    self.title = @"菜单";
+    self.navigationController.navigationBar.clipsToBounds = YES;
     
     NSString *path = [[NSBundle mainBundle] pathForResource:@"MenuItems" ofType:@"plist"];
     _dataArr  = [NSArray arrayWithContentsOfFile:path];

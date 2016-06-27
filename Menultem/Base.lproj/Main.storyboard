@@ -21,19 +21,19 @@
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ozM-ZV-E86" userLabel="ContentView">
-                                        <rect key="frame" x="0.0" y="0.0" width="680" height="600"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="780" height="600"/>
                                         <subviews>
                                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MgM-QO-xHS" userLabel="MenuContainerView">
-                                                <rect key="frame" x="0.0" y="0.0" width="80" height="600"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="180" height="600"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="80" id="NKz-wh-mi7"/>
+                                                    <constraint firstAttribute="width" constant="180" id="NKz-wh-mi7"/>
                                                 </constraints>
                                                 <connections>
                                                     <segue destination="n51-Uw-OmH" kind="embed" id="MDR-t4-7f3"/>
                                                 </connections>
                                             </containerView>
                                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jC2-KP-8iq" userLabel="DetailContainerView">
-                                                <rect key="frame" x="80" y="0.0" width="600" height="600"/>
+                                                <rect key="frame" x="180" y="0.0" width="600" height="600"/>
                                                 <connections>
                                                     <segue destination="gsh-Qv-4Cm" kind="embed" identifier="DetailViewSegue" id="V1p-DX-fl7"/>
                                                 </connections>
@@ -45,9 +45,15 @@
                                             <constraint firstAttribute="bottom" secondItem="MgM-QO-xHS" secondAttribute="bottom" id="F43-jQ-3ap"/>
                                             <constraint firstItem="MgM-QO-xHS" firstAttribute="top" secondItem="ozM-ZV-E86" secondAttribute="top" id="HAe-LJ-TqY"/>
                                             <constraint firstItem="MgM-QO-xHS" firstAttribute="leading" secondItem="ozM-ZV-E86" secondAttribute="leading" id="HQo-59-NwG"/>
+                                            <constraint firstAttribute="trailing" secondItem="jC2-KP-8iq" secondAttribute="trailing" id="Vj8-zR-XPr"/>
                                             <constraint firstItem="jC2-KP-8iq" firstAttribute="top" secondItem="ozM-ZV-E86" secondAttribute="top" id="n77-rt-FBz"/>
                                             <constraint firstAttribute="bottom" secondItem="jC2-KP-8iq" secondAttribute="bottom" id="oCK-cd-EI9"/>
                                         </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="DE5-ZW-cye"/>
+                                            </mask>
+                                        </variation>
                                     </view>
                                 </subviews>
                                 <constraints>
@@ -69,7 +75,7 @@
                             <constraint firstItem="y3c-jy-aDJ" firstAttribute="bottom" secondItem="Bc4-m5-SbN" secondAttribute="top" id="Ylj-2G-czA"/>
                             <constraint firstItem="ozM-ZV-E86" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="dyx-0c-5vP"/>
                             <constraint firstAttribute="trailing" secondItem="Bc4-m5-SbN" secondAttribute="trailing" id="eqR-mf-5ov"/>
-                            <constraint firstItem="ozM-ZV-E86" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" constant="80" id="f94-WZ-15s"/>
+                            <constraint firstItem="ozM-ZV-E86" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" constant="180" id="f94-WZ-15s"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
@@ -92,22 +98,22 @@
             <objects>
                 <viewController id="jdh-Aa-ihx" customClass="MenuitemViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FcA-rG-f3V">
-                        <rect key="frame" x="0.0" y="44" width="80" height="556"/>
+                        <rect key="frame" x="0.0" y="44" width="180" height="556"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="84" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="h3S-ZV-vq9">
-                                <rect key="frame" x="0.0" y="0.0" width="80" height="556"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="84" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="h3S-ZV-vq9">
+                                <rect key="frame" x="0.0" y="0.0" width="180" height="556"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MenuitemCell" rowHeight="84" id="jW7-3f-Vzo" customClass="MenuitemCell">
-                                        <rect key="frame" x="0.0" y="28" width="80" height="84"/>
+                                        <rect key="frame" x="0.0" y="28" width="180" height="84"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jW7-3f-Vzo" id="b0N-Tw-4b1">
-                                            <rect key="frame" x="0.0" y="0.0" width="80" height="84"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="180" height="84"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OeQ-YD-9Ee">
-                                                    <rect key="frame" x="0.0" y="0.0" width="80" height="83.5"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="180" height="83.5"/>
                                                 </imageView>
                                             </subviews>
                                             <constraints>
@@ -149,7 +155,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0f5-Cj-nqM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2334" y="229"/>
+            <point key="canvasLocation" x="2538" y="253"/>
         </scene>
         <!--Detail Vontainer View Controller-->
         <scene sceneID="NKK-Iy-SiI">
@@ -180,7 +186,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hY7-Un-e3z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1585" y="1039"/>
+            <point key="canvasLocation" x="1727" y="1039"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Z8c-Dc-zst">
@@ -197,7 +203,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S1v-Jk-vkO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2148" y="229"/>
+            <point key="canvasLocation" x="2282" y="253"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="eQc-ON-DN3">
