@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		049AF07F1D20BB350096F1DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 049AF07E1D20BB350096F1DC /* main.m */; };
 		049AF0821D20BB350096F1DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 049AF0811D20BB350096F1DC /* AppDelegate.m */; };
-		049AF0851D20BB350096F1DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049AF0841D20BB350096F1DC /* ViewController.m */; };
 		049AF0881D20BB350096F1DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049AF0861D20BB350096F1DC /* Main.storyboard */; };
 		049AF08A1D20BB350096F1DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049AF0891D20BB350096F1DC /* Assets.xcassets */; };
 		049AF08D1D20BB350096F1DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049AF08B1D20BB350096F1DC /* LaunchScreen.storyboard */; };
 		049AF0981D20BB350096F1DC /* MenultemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 049AF0971D20BB350096F1DC /* MenultemTests.m */; };
 		049AF0A31D20BB350096F1DC /* MenultemUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 049AF0A21D20BB350096F1DC /* MenultemUITests.m */; };
+		049AF0B21D20BC8A0096F1DC /* ContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049AF0B11D20BC8A0096F1DC /* ContainerViewController.m */; };
+		049AF0B51D20C28E0096F1DC /* MenuitemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049AF0B41D20C28E0096F1DC /* MenuitemViewController.m */; };
+		049AF0B81D20C2B00096F1DC /* DetailVontainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049AF0B71D20C2B00096F1DC /* DetailVontainerViewController.m */; };
+		049AF0BB1D20C2CE0096F1DC /* MenuitemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 049AF0BA1D20C2CE0096F1DC /* MenuitemCell.m */; };
+		049AF0BD1D20C9C80096F1DC /* MenuItems.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049AF0BC1D20C9C80096F1DC /* MenuItems.plist */; };
+		049AF0C31D20D0480096F1DC /* UIColor+MyColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 049AF0C21D20D0480096F1DC /* UIColor+MyColors.m */; };
+		049AF0C61D20FDA30096F1DC /* HamburgerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 049AF0C51D20FDA30096F1DC /* HamburgerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +45,6 @@
 		049AF07E1D20BB350096F1DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		049AF0801D20BB350096F1DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		049AF0811D20BB350096F1DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		049AF0831D20BB350096F1DC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		049AF0841D20BB350096F1DC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		049AF0871D20BB350096F1DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		049AF0891D20BB350096F1DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		049AF08C1D20BB350096F1DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +55,20 @@
 		049AF09E1D20BB350096F1DC /* MenultemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MenultemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		049AF0A21D20BB350096F1DC /* MenultemUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenultemUITests.m; sourceTree = "<group>"; };
 		049AF0A41D20BB350096F1DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		049AF0B01D20BC8A0096F1DC /* ContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerViewController.h; sourceTree = "<group>"; };
+		049AF0B11D20BC8A0096F1DC /* ContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerViewController.m; sourceTree = "<group>"; };
+		049AF0B31D20C28E0096F1DC /* MenuitemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuitemViewController.h; sourceTree = "<group>"; };
+		049AF0B41D20C28E0096F1DC /* MenuitemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuitemViewController.m; sourceTree = "<group>"; };
+		049AF0B61D20C2B00096F1DC /* DetailVontainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailVontainerViewController.h; sourceTree = "<group>"; };
+		049AF0B71D20C2B00096F1DC /* DetailVontainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailVontainerViewController.m; sourceTree = "<group>"; };
+		049AF0B91D20C2CE0096F1DC /* MenuitemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuitemCell.h; sourceTree = "<group>"; };
+		049AF0BA1D20C2CE0096F1DC /* MenuitemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuitemCell.m; sourceTree = "<group>"; };
+		049AF0BC1D20C9C80096F1DC /* MenuItems.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MenuItems.plist; sourceTree = "<group>"; };
+		049AF0BE1D20CCD10096F1DC /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		049AF0C11D20D0480096F1DC /* UIColor+MyColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MyColors.h"; sourceTree = "<group>"; };
+		049AF0C21D20D0480096F1DC /* UIColor+MyColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MyColors.m"; sourceTree = "<group>"; };
+		049AF0C41D20FDA30096F1DC /* HamburgerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HamburgerView.h; sourceTree = "<group>"; };
+		049AF0C51D20FDA30096F1DC /* HamburgerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HamburgerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +99,7 @@
 		049AF0711D20BB350096F1DC = {
 			isa = PBXGroup;
 			children = (
+				049AF0C71D2118580096F1DC /* gongju */,
 				049AF07C1D20BB350096F1DC /* Menultem */,
 				049AF0961D20BB350096F1DC /* MenultemTests */,
 				049AF0A11D20BB350096F1DC /* MenultemUITests */,
@@ -103,13 +122,22 @@
 			children = (
 				049AF0801D20BB350096F1DC /* AppDelegate.h */,
 				049AF0811D20BB350096F1DC /* AppDelegate.m */,
-				049AF0831D20BB350096F1DC /* ViewController.h */,
-				049AF0841D20BB350096F1DC /* ViewController.m */,
 				049AF0861D20BB350096F1DC /* Main.storyboard */,
 				049AF0891D20BB350096F1DC /* Assets.xcassets */,
 				049AF08B1D20BB350096F1DC /* LaunchScreen.storyboard */,
 				049AF08E1D20BB350096F1DC /* Info.plist */,
+				049AF0BC1D20C9C80096F1DC /* MenuItems.plist */,
 				049AF07D1D20BB350096F1DC /* Supporting Files */,
+				049AF0B01D20BC8A0096F1DC /* ContainerViewController.h */,
+				049AF0B11D20BC8A0096F1DC /* ContainerViewController.m */,
+				049AF0B31D20C28E0096F1DC /* MenuitemViewController.h */,
+				049AF0B41D20C28E0096F1DC /* MenuitemViewController.m */,
+				049AF0B91D20C2CE0096F1DC /* MenuitemCell.h */,
+				049AF0BA1D20C2CE0096F1DC /* MenuitemCell.m */,
+				049AF0B61D20C2B00096F1DC /* DetailVontainerViewController.h */,
+				049AF0B71D20C2B00096F1DC /* DetailVontainerViewController.m */,
+				049AF0C41D20FDA30096F1DC /* HamburgerView.h */,
+				049AF0C51D20FDA30096F1DC /* HamburgerView.m */,
 			);
 			path = Menultem;
 			sourceTree = "<group>";
@@ -138,6 +166,16 @@
 				049AF0A41D20BB350096F1DC /* Info.plist */,
 			);
 			path = MenultemUITests;
+			sourceTree = "<group>";
+		};
+		049AF0C71D2118580096F1DC /* gongju */ = {
+			isa = PBXGroup;
+			children = (
+				049AF0C11D20D0480096F1DC /* UIColor+MyColors.h */,
+				049AF0C21D20D0480096F1DC /* UIColor+MyColors.m */,
+				049AF0BE1D20CCD10096F1DC /* PrefixHeader.pch */,
+			);
+			name = gongju;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +245,7 @@
 				TargetAttributes = {
 					049AF0791D20BB350096F1DC = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = US3V2JJL69;
 					};
 					049AF0921D20BB350096F1DC = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -243,6 +282,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				049AF0BD1D20C9C80096F1DC /* MenuItems.plist in Resources */,
 				049AF08D1D20BB350096F1DC /* LaunchScreen.storyboard in Resources */,
 				049AF08A1D20BB350096F1DC /* Assets.xcassets in Resources */,
 				049AF0881D20BB350096F1DC /* Main.storyboard in Resources */,
@@ -270,9 +310,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				049AF0851D20BB350096F1DC /* ViewController.m in Sources */,
+				049AF0C31D20D0480096F1DC /* UIColor+MyColors.m in Sources */,
 				049AF0821D20BB350096F1DC /* AppDelegate.m in Sources */,
+				049AF0C61D20FDA30096F1DC /* HamburgerView.m in Sources */,
 				049AF07F1D20BB350096F1DC /* main.m in Sources */,
+				049AF0B81D20C2B00096F1DC /* DetailVontainerViewController.m in Sources */,
+				049AF0BB1D20C2CE0096F1DC /* MenuitemCell.m in Sources */,
+				049AF0B51D20C28E0096F1DC /* MenuitemViewController.m in Sources */,
+				049AF0B21D20BC8A0096F1DC /* ContainerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +460,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
 				INFOPLIST_FILE = Menultem/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhenwei.123.Menultem;
@@ -426,6 +474,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
 				INFOPLIST_FILE = Menultem/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhenwei.123.Menultem;
